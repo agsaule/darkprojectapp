@@ -16,22 +16,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gV8-88-3dc">
-                                <rect key="frame" x="92" y="428" width="230" height="50"/>
+                                <rect key="frame" x="20" y="93" width="230" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="GL6-e7-Dgh"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="sZG-Vd-HCu"/>
+                                    <constraint firstAttribute="height" constant="50" id="8ng-GT-rTG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="obf-lP-KS8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
-                                <state key="normal" title="very long button">
+                                <state key="normal" title="long long button">
                                     <color key="titleColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="gV8-88-3dc" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="FxP-eM-O9o"/>
-                            <constraint firstItem="gV8-88-3dc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mvA-yT-jxY"/>
+                            <constraint firstItem="gV8-88-3dc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="F4s-3F-zE0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gV8-88-3dc" secondAttribute="trailing" constant="130" id="Ked-Em-fje"/>
+                            <constraint firstItem="gV8-88-3dc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sl5-rJ-FSW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
